@@ -1,0 +1,8 @@
+interface Node {
+  id: ID!
+}
+
+type VehicleAd implements Node {
+  id: ID!
+  slug: String!
+}

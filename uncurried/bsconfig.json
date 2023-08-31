@@ -1,0 +1,17 @@
+{
+  "name": "repro",
+  "suffix": ".bs.mjs",
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "jsx": { "version": 4 },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "ppx-flags": ["rescript-relay/ppx"],
+  "bs-dependencies": ["@rescript/react", "rescript-relay"]
+}
